@@ -56,7 +56,7 @@ This application was developed using HTML, CSS, and JavaScript. It features a re
 
 ## Credits
 
-This application was developed by Muhammad Moghal. Special thanks to Scott Byers, the instructor who provided the starter code, as well as the labs and online research material that provided guidance and support during the development process.
+This application was developed by Muhammad Moghal. Special thanks to Scott Byers, who provided the starter code, as well as the labs and online research material that provided guidance and support during the development process.
 
 ## License
 
