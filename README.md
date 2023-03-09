@@ -54,6 +54,13 @@ There is no installation required for this application. Simply click on the depl
 
 This application was developed using HTML, CSS, and JavaScript. It features a responsive user interface that has been designed using CSS Flexbox. JavaScript has been used to handle user input and generate a random password based on the criteria selected.
 
+1. Visit [Deployed Application](https://mmoghal.github.io/fast-crime/) for Password Generator
+
+2. Application Image
+
+![alt Image of the application](https://github.com/mmoghal/fast-crime/blob/main/pw.png)
+
+
 ## Credits
 
 This application was developed by Muhammad Moghal. Special thanks to Scott Byers, who provided the starter code, as well as the labs and online research material that provided guidance and support during the development process.
