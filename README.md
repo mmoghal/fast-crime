@@ -2,7 +2,7 @@
 
 ## Description
 
-This application enables users to generate random passwords based on specific criteria that they select. It runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code that has been written. The user interface is clean, polished, and responsive, adapting to multiple screen sizes.
+This application enables users to generate random passwords based on specific criteria that they select. It runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code that has been written. The code defines an array of characters to include in the password and defines a function to generate a password based on user-selected criteria. The code prompts the user for the desired length of the password and validates the input. It also prompts the user to confirm which character types to include in the password and initializes an array to hold the available characters based on user-selected criteria. Finally, the code generates a password by selecting random characters from the availableCharacters array and writes the generated password to the #password input when the generate button is clicked.
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ There is no installation required for this application. Simply click on the depl
 
         .   Enter the desired length of the password (must be between 8 and 128 characters).
 
-        .   Choose whether to include lowercase letters, uppercase letters, numbers, and/or special    characters.
+        .   Choose whether to include lowercase letters, uppercase letters, numbers, and/or special characters.
 
 4.  Once you have answered all of the prompts, your randomly generated password will be displayed in the text area.
 
@@ -47,7 +47,7 @@ There is no installation required for this application. Simply click on the depl
 
 . Allows users to choose whether to include lowercase letters, uppercase letters, numbers, and/or special characters.
 
-. Allows users to copy the generated password
+. Allows users to copy the generated password.
 
 
 ## Development
