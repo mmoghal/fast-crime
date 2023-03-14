@@ -14,6 +14,8 @@ This application enables users to generate random passwords based on specific cr
 
 .   Development
 
+.   Technical Details
+
 .   Credits
 
 ## Installation
@@ -59,6 +61,19 @@ This application was developed using HTML, CSS, and JavaScript. It features a re
 2. Application Image
 
 ![alt Image of the application](https://github.com/mmoghal/fast-crime/blob/main/pw.png)
+
+
+## Technical Details:
+
+This code defines an array of characters to be used in generating a password. The array includes lowercase and uppercase letters, numbers, and special characters.
+
+The generatePassword() function is defined to prompt the user for the desired length of the password and which character types to include. It validates the user's input and initializes an array to hold the available characters based on user-selected criteria.
+
+The function generates a password by selecting random characters from the availableCharacters array.
+
+The writePassword() function is defined to generate a password and write it to the #password input.
+
+The addEventListener() method is used to add an event listener to the "Generate Password" button that calls the writePassword() function when clicked.
 
 
 ## Credits
