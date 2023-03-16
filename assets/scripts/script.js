@@ -3,6 +3,7 @@ const lowercaseLetters = "abcdefghijklmnopqrstuvwxyz".split("");
 const uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 const numbers = "0123456789".split("");
 const specialCharacters = "!@#$%^&*()_-+={}[]\\|:;\"',.<>/?".split("");
+const copyBtn = document.querySelector("#copy");
 
 // Define a function to generate a password based on user-selected criteria
 function generatePassword() {
@@ -23,6 +24,12 @@ function generatePassword() {
 	const includeUppercase = confirm("Include uppercase letters?");
 	const includeNumbers = confirm("Include numbers?");
 	const includeSpecialCharacters = confirm("Include special characters?");
+
+	// Check if none of the character types are selected
+	if (!includeLowercase && !includeUppercase && !includeSpecialCharacters) {
+		alert("You must choose at least one character type.");
+		return "";
+	}
 
 	// Initialize an array to hold the available characters based on user-selected criteria
 	let availableCharacters = [];
@@ -63,6 +70,14 @@ function writePassword() {
 
 	passwordText.value = password;
 }
+
+copyBtn.addEventListener("click", () => {
+	const passwordFlied = document.querySelector("#password");
+	passwordFlied.select();
+	document.execCommand("copy");
+	alert("password copied to clipboard!");
+});
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);

@@ -60,7 +60,7 @@ This application was developed using HTML, CSS, and JavaScript. It features a re
 
 2. Application Image
 
-![alt Image of the application](https://github.com/mmoghal/fast-crime/blob/main/pw.png)
+![alt Image of the application](https://github.com/mmoghal/fast-crime/blob/main/assets/images/pw.png)
 
 
 ## Technical Details
